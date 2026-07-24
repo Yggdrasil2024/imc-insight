@@ -9,20 +9,51 @@
 </head>
 
 <body>
-    <header class="entete">
-        <h1>Calculateur d'IMC</h1>
-        <p class="sous-titre">Semaine 7 — Projet débutant</p>
-    </header>
-    <main>
-        <section class="carte">
-            <h2>Résultats</h2>
-            <div id="sortie"><!-- le JavaScript écrit ici --></div>
-        </section>
-    </main>
-    <footer class="pied">
-        <p>Akieni Academy — Cohorte 2 — 2026</p>
-    </footer>
-    <script src="script.js"></script>
+
+    <div class="container">
+        <header class="entete">
+            <h1>Calculateur d'IMC</h1>
+            <p class="sous-titre">Semaine 7 — Projet débutant</p>
+        </header>
+
+        <main>
+            <section class="carte">
+                <h2>Résultats</h2>
+                <div id="sortie"><!-- le JavaScript écrit ici --></div>
+            </section>
+
+            <section class="inter">
+                <H2>Interpretions</H2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="danger">Maigreur</th>
+                            <th class="normal">Normal</th>
+                            <th class="danger">Surpoids</th>
+                            <th class="danger">Obésité modérée</th>
+                            <th class="danger">Obésité sévère</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt; 18.5</td>
+                            <td>18.5 à 25</td>
+                            <td>25 à 30</td>
+                            <td>30 à 40</td>
+                            <td>&gt; 40</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+        </main>
+
+        <footer class="pied">
+            <p>Akieni Academy — Cohorte 2 — 2026</p>
+        </footer>
+    </div>
+
+    <script src="imc.js"></script>
 </body>
 
 </html>
