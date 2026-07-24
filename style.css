@@ -8,11 +8,13 @@
   --rayon: 12px;
   --espace: 1rem;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family:
     system-ui,
@@ -22,7 +24,23 @@ body {
   color: var(--texte);
   background: var(--fond);
   padding: var(--espace);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+header,
+footer {
+  max-width: 640px;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: var(--texte);
+  color: white;
+  border-radius: var(--rayon);
+}
+
 .carte {
   background: var(--carte);
   border-radius: var(--rayon);
@@ -31,8 +49,51 @@ body {
   margin: 0 auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
+
+.inter {
+  background: var(--carte);
+  border-radius: var(--rayon);
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+table td,
+table th {
+  border-bottom: 1px solid var(--texte-clair);
+  text-align: center;
+  padding: 0.2rem;
+}
+
+table td:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.normal {
+  background-color: var(--vert);
+}
+
+.danger {
+  background-color: var(--rouge);
+}
+
 @media (min-width: 768px) {
   body {
     padding: 2rem;
+  }
+
+  header,
+  footer,
+  .carte,
+  .inter {
+    width: 640px;
   }
 }
