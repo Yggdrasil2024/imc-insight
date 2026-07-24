@@ -1,6 +1,8 @@
 :root {
   --vert: #10b981;
   --rouge: #ef4444;
+  --bleu: #3b82f6;
+  --orange: #f59e0b;
   --texte: #1f2937;
   --texte-clair: #6b7280;
   --fond: #f9fafb;
@@ -81,8 +83,32 @@ table td:nth-child(even) {
   background-color: var(--vert);
 }
 
-.danger {
+.obese {
   background-color: var(--rouge);
+}
+
+.maigreur {
+  background-color: var(--bleu);
+}
+
+.surpoids {
+  background-color: var(--orange);
+}
+
+.normal-text {
+  color: var(--vert);
+}
+
+.maigreur-text {
+  color: var(--bleu);
+}
+
+.surpoids-text {
+  color: var(--orange);
+}
+
+.obese-text {
+  color: var(--rouge);
 }
 
 @media (min-width: 768px) {
