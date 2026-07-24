@@ -1,7 +1,7 @@
 # IMC Insight
 interface de calcul de l'indice de masse corporelle. Il s'agit d'un projet très simple permettant de 
 # Demo
-![[demo_screen.png]]
+<img src="demo_screen.png" alt="image du projet">
 lien pour la [live demo](https://yggdrasil2024.github.io/imc-insight/)
 
 # Fonctionnalité
