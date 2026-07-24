@@ -1,18 +1,24 @@
 # IMC Insight
-interface de calcul de l'indice de masse corporelle. Il s'agit d'un projet très simple permettant de 
+
+interface de calcul de l'indice de masse corporelle. Il s'agit d'un projet très simple permettant de
+
 # Demo
+
 <img src="demo_screen.png" alt="image du projet">
-lien pour la [live demo](https://yggdrasil2024.github.io/imc-insight/)
+[lien pour la live demo](https://yggdrasil2024.github.io/imc-insight/)
 
 # Fonctionnalité
+
 Voici les differentes fonctionnalités du projet:
 
 1. carte de resultats pour voir l'indice
 2. tableau pour voir les plages d'IMC et la situation correspondante
+
 # Technologie utilisée
+
 - HTML: structure sémantique
 - CSS: les feuille de style
-- JS: pour 
+- JS: pour
 
 # Arborescence du projet
 
@@ -22,6 +28,7 @@ root/
 ├── style.css           # Feuille de style globale (Mobile & Desktop)
 └── imc.js              # Script por la logique en javascript
 ```
+
 # Challenge pour la communauté
 
 comme vous pouvez le voir se projet est encoure ouvert donc je vous invite à le modifier et à montrez votre créativité.
@@ -37,6 +44,7 @@ git clone https://yggdrasil2024.github.io/imc-insight/
 ```
 
 2. Acceder au dossier
+
 ```bash
 cd imc-insight
 ```
