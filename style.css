@@ -111,6 +111,15 @@ table td:nth-child(even) {
   color: var(--rouge);
 }
 
+#sortie .resultat:nth-child(even) {
+  padding: 0 0 0.3rem 0;
+  border-bottom: 1px solid var(--texte-clair);
+}
+
+#sortie .resultat:last-child {
+  border: none;
+}
+
 @media (min-width: 768px) {
   body {
     padding: 2rem;
